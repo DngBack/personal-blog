@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #18181b;
+  --foreground: #fafafa;
+  --muted: #a1a1aa;
+  --card: #27272a;
+  --accent: #3b82f6;
+}
+
+.light {
+  --background: #fafafa;
+  --foreground: #18181b;
+  --muted: #71717a;
+  --card: #e4e4e7;
+  --accent: #2563eb;
+}
+
+body {
+  @apply bg-zinc-50 text-zinc-900 antialiased dark:bg-zinc-900 dark:text-zinc-100;
+}
